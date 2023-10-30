@@ -1,0 +1,62 @@
+body{
+    background-color: #333;
+}
+.header {
+    
+    position: relative;
+    background-color: transparent;
+    text-align: left;
+    z-index: 1; 
+}
+.line{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #fff;
+    color: #3333
+}
+.navl {
+    display: inline-block;
+    border: 0px solid rgb(255, 255, 255);
+    padding: 20px;
+    margin-right: 8%;
+    color: #fff;
+    background-color: transparent;
+}
+.navr {
+    border: 0px solid rgb(255, 255, 255);
+    padding: 20px;
+    float: right;
+    color: #fff;
+    background-color: transparent;
+}
+.boxtop{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 64px;
+    background-color: #212a33;
+    color: #212a33;
+}
+.quotes-container {
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 0; 
+    right: 0;
+    padding-top: 100px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 50%;
+    z-index: 0; 
+}
+
+#quote {
+    font-size: 24px;
+    font-style: italic;
+}
